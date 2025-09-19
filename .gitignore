@@ -1,2 +1,4 @@
 .DS_Store
 .env
+input/
+__pycache__

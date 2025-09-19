@@ -7,7 +7,7 @@ TABLES = [
     {
         "create": """CREATE TABLE IF NOT EXISTS document_chunks (
                       id SERIAL PRIMARY KEY,
-                      document_id TEXT NOT NULL UNIQUE,
+                      document_id TEXT NOT NULL,
                       document_title TEXT NOT NULL,
                       text TEXT NOT NULL,
                       embedding vector(1024),
