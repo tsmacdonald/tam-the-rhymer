@@ -13,10 +13,17 @@ Ollama and Postgres are provided by Docker; `cd environment; docker compose up -
 `db_setup.py` for migrating the DB.
 
 ```
+source .venv/bin/activate
+```
+for venv
+
+
+```
 flask --app server.py run
 ```
 
 for starting the server
+
 
 # Future plans
 
